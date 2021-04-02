@@ -1,0 +1,24 @@
+{
+  "name": "carrito-api",
+  "version": "1.0.0",
+  "description": "Carrito de compras peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurelismoreno/-shopping-cart-amovies.git"
+  },
+  "keywords": [
+    "js",
+    "movies",
+    "vanilla"
+  ],
+  "author": "Aurelis Moreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aurelismoreno/-shopping-cart-amovies/issues"
+  },
+  "homepage": "https://github.com/aurelismoreno/-shopping-cart-amovies#readme"
+}
