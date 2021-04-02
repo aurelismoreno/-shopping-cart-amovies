@@ -1,5 +1,5 @@
 const listaPeliculas = () => {
-  return ` <div>listaPeliculas</div>`;
+  return `<div>listaPeliculas</div>`;
 };
 
 export default listaPeliculas;
