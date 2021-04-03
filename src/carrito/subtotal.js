@@ -1,9 +1,9 @@
 const subtotal = () => {
   const template = `<div>subtotal</div>`;
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("subtotal");
-  sectionElement.innerHTML = template;
-  return sectionElement;
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("subtotal");
+  wrapperElement.innerHTML = template;
+  return wrapperElement;
 };
 
 export default subtotal;

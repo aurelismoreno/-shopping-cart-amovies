@@ -3,12 +3,12 @@ import itemCarrito from "./itemCarrito.js";
 const array = [0, 1, 2, 3];
 
 const listadoCarrito = () => {
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("listaCarrito");
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("listaCarrito");
   array.forEach((n) => {
-    sectionElement.appendChild(itemCarrito());
+    wrapperElement.appendChild(itemCarrito());
   });
-  return sectionElement;
+  return wrapperElement;
 };
 
 export default listadoCarrito;

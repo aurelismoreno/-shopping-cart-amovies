@@ -1,10 +1,10 @@
 const inputHome = () => {
   const template = `<div>inputHome</div>`;
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("inputHome");
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("inputHome");
 
-  sectionElement.innerHTML = template;
-  return sectionElement;
+  wrapperElement.innerHTML = template;
+  return wrapperElement;
 };
 
 export default inputHome;

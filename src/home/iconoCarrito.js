@@ -1,10 +1,10 @@
 const iconoCarrito = () => {
   const template = `<div>iconoCarrito</div>`;
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("iconoCarrito");
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("iconoCarrito");
 
-  sectionElement.innerHTML = template;
-  return sectionElement;
+  wrapperElement.innerHTML = template;
+  return wrapperElement;
 };
 
 export default iconoCarrito;

@@ -1,9 +1,9 @@
 const cantidadItems = () => {
   const template = `<div>cantidadItems</div>`;
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("cantidadItems");
-  sectionElement.innerHTML = template;
-  return sectionElement;
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("cantidadItems");
+  wrapperElement.innerHTML = template;
+  return wrapperElement;
 };
 
 export default cantidadItems;

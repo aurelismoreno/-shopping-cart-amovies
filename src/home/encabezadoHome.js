@@ -8,14 +8,14 @@ const encabezadoHome = () => {
     <div id="carrito"></div>
   </div>
   `;
-  const sectionElement = document.createElement("div");
-  sectionElement.classList.add("encabezadoHome");
-  sectionElement.innerHTML = template;
+  const wrapperElement = document.createElement("div");
+  wrapperElement.classList.add("encabezadoHome");
+  wrapperElement.innerHTML = template;
 
-  const carritoElement = sectionElement.querySelector("#carrito");
+  const carritoElement = wrapperElement.querySelector("#carrito");
   carritoElement.appendChild(iconoCarrito());
 
-  return sectionElement;
+  return wrapperElement;
 };
 
 export default encabezadoHome;
