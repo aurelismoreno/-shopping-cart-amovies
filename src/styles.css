@@ -1,0 +1,30 @@
+/* ESTILOS PARA HOME  */
+.encabezadoHome-interno {
+  display: flex;
+  justify-content: space-between;
+}
+.inputHome-interno {
+  display: flex;
+  justify-content: center;
+}
+.listaPeliculas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemPelicula-interno {
+  padding: 10px;
+}
+/* ESTILOS PARA CARRITO */
+
+.cantidadItems-interno {
+  display: flex;
+  justify-content: center;
+}
+.itemCarrito-interno {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemCarrito-precio {
+  display: flex;
+}

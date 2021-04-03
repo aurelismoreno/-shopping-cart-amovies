@@ -1,5 +1,5 @@
 const iconoCarrito = () => {
-  const template = `<div>iconoCarrito</div>`;
+  const template = `<div><i class='bx bx-cart'></i></div>`;
   const wrapperElement = document.createElement("div");
   wrapperElement.classList.add("iconoCarrito");
 
