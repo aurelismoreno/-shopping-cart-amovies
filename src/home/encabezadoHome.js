@@ -6,9 +6,3 @@ const encabezadoHome = () => {
 };
 
 export default encabezadoHome;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(encabezadoHome());
-};
-renderizado();

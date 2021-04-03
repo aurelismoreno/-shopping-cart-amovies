@@ -1,14 +1,14 @@
+import itemPelicula from "./itemPelicula.js";
+
+const array = [0, 1, 2, 3];
+
 const listaPeliculas = () => {
-  const template = `<div>listaPeliculas</div>`;
   const sectionElement = document.createElement("section");
-  sectionElement.innerHTML = template;
+
+  array.forEach((n) => {
+    sectionElement.appendChild(itemPelicula());
+  });
   return sectionElement;
 };
 
 export default listaPeliculas;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(listaPeliculas());
-};
-renderizado();

@@ -6,9 +6,3 @@ const itemPelicula = () => {
 };
 
 export default itemPelicula;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(itemPelicula());
-};
-renderizado();

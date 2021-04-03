@@ -1,14 +1,13 @@
+import itemCarrito from "./itemCarrito.js";
+
+const array = [0, 1, 2, 3];
+
 const listadoCarrito = () => {
-  const template = `<div>listadoCarrito</div>`;
   const sectionElement = document.createElement("section");
-  sectionElement.innerHTML = template;
+  array.forEach((n) => {
+    sectionElement.appendChild(itemCarrito());
+  });
   return sectionElement;
 };
 
 export default listadoCarrito;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(listadoCarrito());
-};
-renderizado();

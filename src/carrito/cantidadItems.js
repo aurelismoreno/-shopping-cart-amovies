@@ -6,9 +6,3 @@ const cantidadItems = () => {
 };
 
 export default cantidadItems;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(cantidadItems());
-};
-renderizado();

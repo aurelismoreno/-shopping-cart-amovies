@@ -6,9 +6,3 @@ const itemCarrito = () => {
 };
 
 export default itemCarrito;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(itemCarrito());
-};
-renderizado();

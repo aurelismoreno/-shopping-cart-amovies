@@ -1,7 +1,13 @@
+import encabezadoHome from "./encabezadoHome.js";
+import inputHome from "./inputHome.js";
+import listaPeliculas from "./listaPeliculas.js";
+
 const homeView = () => {
-  const template = `<div>homeView</div>`;
   const sectionElement = document.createElement("section");
-  sectionElement.innerHTML = template;
+
+  sectionElement.appendChild(encabezadoHome());
+  sectionElement.appendChild(inputHome());
+  sectionElement.appendChild(listaPeliculas());
   return sectionElement;
 };
 

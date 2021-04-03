@@ -6,9 +6,3 @@ const inputHome = () => {
 };
 
 export default inputHome;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(inputHome());
-};
-renderizado();

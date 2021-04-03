@@ -6,9 +6,3 @@ const subtotal = () => {
 };
 
 export default subtotal;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(subtotal());
-};
-renderizado();

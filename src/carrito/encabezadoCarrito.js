@@ -6,9 +6,3 @@ const encabezadoCarrito = () => {
 };
 
 export default encabezadoCarrito;
-
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(encabezadoCarrito());
-};
-renderizado();
