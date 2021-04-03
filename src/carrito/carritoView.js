@@ -4,7 +4,8 @@ import listadoCarrito from "./listadoCarrito.js";
 import subtotal from "./subtotal.js";
 
 const carritoView = () => {
-  const sectionElement = document.createElement("section");
+  const sectionElement = document.createElement("div");
+  sectionElement.classList.add("carritoView");
   sectionElement.appendChild(encabezadoCarrito());
   sectionElement.appendChild(cantidadItems());
   sectionElement.appendChild(listadoCarrito());
