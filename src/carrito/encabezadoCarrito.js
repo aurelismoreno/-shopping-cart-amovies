@@ -1,7 +1,9 @@
 const encabezadoCarrito = () => {
   const template = `
   <div>
-    <img src="img/logo.png" alt="AMOVIES"/>
+    <a href="?view=home">
+      <img src="img/logo.png" alt="AMOVIES">
+    </a>
   </div>
   `;
   const wrapperElement = document.createElement("div");

@@ -4,7 +4,9 @@ const encabezadoHome = () => {
   const template = `
   <div class="encabezadoHome-interno">
     <div>
-      <img src="img/logo.png" alt="AMOVIES">
+      <a href="?view=home">
+        <img src="img/logo.png" alt="AMOVIES">
+      </a>
     </div>
     <div>Home</div>
     <div id="carrito"></div>

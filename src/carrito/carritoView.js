@@ -15,8 +15,3 @@ const carritoView = () => {
 
 export default carritoView;
 
-const renderizado = () => {
-  const container = document.querySelector("#container");
-  container.appendChild(carritoView());
-};
-renderizado();
