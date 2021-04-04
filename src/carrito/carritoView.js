@@ -1,7 +1,7 @@
 import encabezadoCarrito from './encabezadoCarrito.js';
 import cantidadItems from './cantidadItems.js';
 import listadoCarrito from './listadoCarrito.js';
-import subtotal from './subtotal.js';
+import totalCarrito from './totalCarrito.js';
 import carrito from '../carrito-api.js';
 
 const carritoView = () => {
@@ -11,7 +11,7 @@ const carritoView = () => {
 	wrapperElement.appendChild(encabezadoCarrito());
 	wrapperElement.appendChild(cantidadItems());
 	wrapperElement.appendChild(listadoCarrito(arrayCarrito));
-	wrapperElement.appendChild(subtotal(arrayCarrito));
+	wrapperElement.appendChild(totalCarrito());
 	return wrapperElement;
 };
 

@@ -29,4 +29,14 @@ const agregar = (pelicula, cantidad) => {
 	localStorage.setItem(carritoKey, JSON.stringify(arrayCarrito));
 };
 
-export default { leer, agregar };
+const getTotal = () => {
+	const arrayCarrito = leer();
+	let total = 0;
+	arrayCarrito.forEach((dataItemCarrito) => {
+		total = total + dataItemCarrito.precio * dataItemCarrito.cantidad;
+	});
+
+	return total;
+};
+
+export default { leer, agregar, getTotal };

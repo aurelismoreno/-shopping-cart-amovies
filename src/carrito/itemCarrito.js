@@ -38,6 +38,8 @@ const itemCarrito = (dataItemCarrito) => {
 		spanSubtotalElement.innerHTML = `${
 			dataItemCarrito.precio * dataItemCarrito.cantidad
 		}`;
+		const event = new Event('cantidadesActual');
+		document.dispatchEvent(event);
 	};
 
 	//ELIMINAR ITEM DE CARRITO
