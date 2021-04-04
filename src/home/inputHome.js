@@ -1,6 +1,4 @@
-const apiUrl = 'http://www.omdbapi.com/?apikey=d8a7f8b1&';
-
-const inputHome = (renderListaPelicula, renderPaginacion) => {
+const inputHome = () => {
 	const template = `
 	<div class="inputHome-interno">
 		<input id="inputHomeBuscar" type="text" placeholder="Busca tu pelicula favorita">
@@ -18,18 +16,8 @@ const inputHome = (renderListaPelicula, renderPaginacion) => {
 		evt.preventDefault();
 		const inputBuscarElement = wrapperElement.querySelector('#inputHomeBuscar');
 		const tituloBuscar = inputBuscarElement.value;
-		fetch(`${apiUrl}s=${encodeURI(tituloBuscar)}`)
-			.then((response) => {
-				return response.json();
-			})
-			.then((data) => {
-				console.log(data);
-				renderListaPelicula(data.Search);
-				renderPaginacion();
-			})
-			.catch((error) => {
-				console.log(error);
-			});
+		const url = `?view=home&search=${encodeURI(tituloBuscar)}`;
+		window.location = url;
 	};
 
 	const buscarElement = wrapperElement.querySelector('.inputHome-buscar');
