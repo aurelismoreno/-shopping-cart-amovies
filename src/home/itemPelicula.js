@@ -7,7 +7,7 @@ const itemPelicula = () => {
     <div>Nombre</div>
     <div>Precio</div>
     <div>
-      <button name="button">Añadir</button>
+      <button type="button">Añadir</button>
     </div>
   </div>
   `;
