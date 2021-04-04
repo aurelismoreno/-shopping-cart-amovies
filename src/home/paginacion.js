@@ -7,6 +7,9 @@ const paginacion = (totalResults) => {
 		// BOTON
 		const buttonElement = document.createElement('button');
 		buttonElement.classList.add('paginacionBoton');
+		if (pageNumber === pageActual){
+			buttonElement.classList.add('paginacionBoton-activo');
+		}
 		buttonElement.setAttribute('type', 'button');
 		buttonElement.innerHTML = template;
 

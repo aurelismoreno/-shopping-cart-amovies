@@ -28,3 +28,8 @@
 .itemCarrito-precio {
   display: flex;
 }
+
+/* ESTILOS BOTONES PAGINACION */
+.paginacionBoton-activo{
+  font-weight: bold;
+}

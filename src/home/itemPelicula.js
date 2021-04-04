@@ -2,7 +2,7 @@ const itemPelicula = (pelicula) => {
   const template = `
   <div class="itemPelicula-interno">
     <div>
-      <img src="${pelicula.Poster}" alt="AMOVIES" width="250">
+      <img src="${pelicula.Poster}" alt="AMOVIES" width="150">
     </div>
     <div>${pelicula.Title}</div>
     <div>${pelicula.Type}</div>
