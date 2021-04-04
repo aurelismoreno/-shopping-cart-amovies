@@ -1,10 +1,12 @@
-const itemPelicula = () => {
+const itemPelicula = (pelicula) => {
   const template = `
   <div class="itemPelicula-interno">
     <div>
-      <img src="img/pelicula.png" alt="AMOVIES" width="100">
+      <img src="${pelicula.Poster}" alt="AMOVIES" width="250">
     </div>
-    <div>Nombre</div>
+    <div>${pelicula.Title}</div>
+    <div>${pelicula.Type}</div>
+    <div>${pelicula.Year}</div>
     <div>Precio</div>
     <div>
       <button type="button">Añadir</button>
