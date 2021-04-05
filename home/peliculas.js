@@ -1,7 +1,7 @@
 import listaPeliculas from './listaPeliculas.js';
 import paginacion from './paginacion.js';
 
-const apiUrl = 'http://www.omdbapi.com/?apikey=d8a7f8b1&';
+const apiUrl = 'https://www.omdbapi.com/?apikey=d8a7f8b1&';
 
 const peliculas = () => {
     // OBTENER PARAMETRO DE LA RUTA 
