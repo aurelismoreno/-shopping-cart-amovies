@@ -2,7 +2,7 @@ const iconoCarrito = () => {
   const template = `
   <div>
     <a href="?view=carrito">
-      <i class='bx bx-cart'></i>
+    <i class="fas fa-shopping-cart fa-3x"></i>
     </a>
   </div>`;
   const wrapperElement = document.createElement("div");

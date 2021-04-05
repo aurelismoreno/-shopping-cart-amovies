@@ -2,8 +2,8 @@ const cantidadItems = () => {
   const template = `
   <div>
     <h2 class="cantidadItems-interno">Carrito de Compra</h2>
-    <div>
-      <a href="?view=home"> Continuar Comprando
+    <div class="cantidadItems-continuar">
+      <a href="?view=home"> << Continuar Comprando
       </a>
     </div>
   </div>`;

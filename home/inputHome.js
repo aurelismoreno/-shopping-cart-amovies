@@ -3,7 +3,7 @@ const inputHome = () => {
 	<div class="inputHome-interno">
 		<input id="inputHomeBuscar" type="text" placeholder="Busca tu pelicula favorita">
 		<button class="inputHome-buscar">
-			<i class='bx bx-search'></i>
+			<i class="fas fa-search"></i>
 		</button>
 	</div>
   	`;

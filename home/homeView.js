@@ -8,7 +8,7 @@ const homeView = () => {
 	wrapperElement.classList.add('homeView');
 
 	wrapperElement.appendChild(encabezadoHome());
-	wrapperElement.appendChild(inputHome());
+	// wrapperElement.appendChild(inputHome());
 	wrapperElement.appendChild(peliculas());
 
 	return wrapperElement;

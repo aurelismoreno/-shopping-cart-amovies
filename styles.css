@@ -1,35 +1,69 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #333;
+	font-size: 16px;
+}
+a {
+	color: black;
+}
+.container {
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+.encabezadoHome-logo {
+	font-size: 1000px;
+}
+
 /* ESTILOS PARA HOME  */
 .encabezadoHome-interno {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .inputHome-interno {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .listaPeliculas {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .itemPelicula-interno {
-  padding: 10px;
+	padding: 10px;
+  max-width: 150px;
+}
+.itemPelicula-imagen{
+  width: 100%;
+}
+.paginacion {
+	display: flex;
+	justify-content: center;
 }
 /* ESTILOS PARA CARRITO */
-
 .cantidadItems-interno {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .itemCarrito-interno {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
+.cantidadItems-continuar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
 .itemCarrito-precio {
-  display: flex;
+	display: flex;
+}
+.totalCarrito {
+	display: flex;
+	justify-content: flex-end;
+  font-weight: bold;
 }
 
 /* ESTILOS BOTONES PAGINACION */
-.paginacionBoton-activo{
-  font-weight: bold;
+.paginacionBoton-activo {
+	font-weight: bold;
 }

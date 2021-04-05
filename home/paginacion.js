@@ -1,3 +1,5 @@
+const maximoBotones = 5;
+
 const paginacion = (totalResults) => {
 	const urlParams = new URLSearchParams(window.location.search);
 	const pageActual = +(urlParams.get('page') || 1);
@@ -35,7 +37,9 @@ const paginacion = (totalResults) => {
 		wrapperElement.appendChild(paginacionBoton('<', pageActual - 1));
 	}
 
-	for (let i = 1; i <= cantidadPaginas; i++) {
+	const iDesde = Math.max(1,pageActual-maximoBotones)
+	const iHasta = Math.min(cantidadPaginas,pageActual+ maximoBotones)
+	for (let i = iDesde; i <= iHasta; i++) {
 		wrapperElement.appendChild(paginacionBoton(i, i));
 	}
 	
